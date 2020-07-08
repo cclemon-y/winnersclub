@@ -1,0 +1,120 @@
+// 定数定義
+
+
+// 継承の定義
+
+
+html,
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.infoHead{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    a{
+        display: inline-block;
+        text-align: left;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+header{
+    nav img{
+        width: auto;
+        height: 30px;
+    }
+
+    nav form{
+        position: relative;
+        left:15%;
+    }
+}
+
+main{
+    div div img{
+        width: 100%;
+    }
+
+    .jumbotron{
+        background-color: white;
+        margin-bottom: 0;
+    }
+
+    .jumbotron hr{
+        border-color: red;
+    }
+
+    .jumbotron h1{
+        font-size: 20px;
+    }
+
+    section .container .row{
+        margin-bottom: 5%;
+    }
+
+    section .container .row .col .card{
+        border:0 !important;
+        border-bottom: 1px solid black !important;
+        border-radius: 0em;
+        
+    }
+
+    section .container .row .col .card .card-body h5{
+        border-bottom: medium solid red;
+    }
+
+    section .container .row .col .card .card-body a{
+        background-color: red;
+        position: relative;
+        left: 70%;
+    }
+}
+
+footer{
+
+    background-color: black;
+
+    .container{
+        padding-top: 50px;
+    }
+
+    .container .row{
+        margin-bottom: 30px;
+    }
+
+    .container .menu h1{
+        font-size: 20px;
+        color: white;
+    }
+
+    .container .menu hr{
+        border-color: white;
+    }
+
+    .container .row nav a{
+        border-bottom: medium solid white;
+        color: white;
+    }
+
+    .container .archive h1{
+        font-size: 20px;
+        color: white;
+    }
+
+    .container .archive hr{
+        border-color: white;
+    }
+
+    .container .footer_img img{
+        width: 100%;
+    }
+
+    address{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+}

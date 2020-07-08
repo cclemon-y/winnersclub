@@ -1,0 +1,110 @@
+html,
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.infoHead {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.infoHead a {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+header nav img {
+  width: auto;
+  height: 30px;
+}
+
+header nav form {
+  position: relative;
+  left: 15%;
+}
+
+main div div img {
+  width: 100%;
+}
+
+main .jumbotron {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+main .jumbotron hr {
+  border-color: red;
+}
+
+main .jumbotron h1 {
+  font-size: 20px;
+}
+
+main section .container .row {
+  margin-bottom: 5%;
+}
+
+main section .container .row .col .card {
+  border: 0 !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0em;
+}
+
+main section .container .row .col .card .card-body h5 {
+  border-bottom: medium solid red;
+}
+
+main section .container .row .col .card .card-body a {
+  background-color: red;
+  position: relative;
+  left: 70%;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .container {
+  padding-top: 50px;
+}
+
+footer .container .row {
+  margin-bottom: 30px;
+}
+
+footer .container .menu h1 {
+  font-size: 20px;
+  color: white;
+}
+
+footer .container .menu hr {
+  border-color: white;
+}
+
+footer .container .row nav a {
+  border-bottom: medium solid white;
+  color: white;
+}
+
+footer .container .archive h1 {
+  font-size: 20px;
+  color: white;
+}
+
+footer .container .archive hr {
+  border-color: white;
+}
+
+footer .container .footer_img img {
+  width: 100%;
+}
+
+footer address {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
