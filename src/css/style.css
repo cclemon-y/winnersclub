@@ -37,10 +37,12 @@ main .jumbotron {
 
 main .jumbotron hr {
   border-color: red;
+  border-width: medium;
 }
 
 main .jumbotron h1 {
   font-size: 20px;
+  font-weight: 500;
 }
 
 main section .container .row {
@@ -60,7 +62,7 @@ main section .container .row .col .card .card-body h5 {
 main section .container .row .col .card .card-body a {
   background-color: red;
   position: relative;
-  left: 70%;
+  left: 65%;
 }
 
 footer {
